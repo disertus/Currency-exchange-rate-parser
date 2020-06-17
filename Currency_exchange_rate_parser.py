@@ -36,7 +36,7 @@ class CURRENCY:
                 print("\tПродажа: ", i, "\n")
 
 
-print("-" * 50)
+print( "-" * 50)
 
 money = CURRENCY("https://finance.i.ua/", )
 currency_usd = money.usd()
