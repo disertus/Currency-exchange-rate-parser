@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 class CURRENCY:
 
-    def __init__(self, url: str, ):
+    def __init__(self, url: str):
         self.open_url = urllib.request.urlopen(url).read()
         self.soup = BeautifulSoup(self.open_url, "html.parser")
         self.parsed_text = self.soup.get_text()
